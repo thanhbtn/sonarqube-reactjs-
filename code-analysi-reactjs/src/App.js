@@ -4,10 +4,14 @@ import './App.css';
 
 
 function doSomeThing () {
-  const condition = true;
+  let condition = true;
   while (condition) {
     condition = true;
   }
+
+  do{
+    condition = true;
+  }while(condition);
 }
 
 function App() {
