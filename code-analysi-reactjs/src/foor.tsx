@@ -21,7 +21,7 @@ class Foor extends PureComponent<FoorProps, FoorState> {
       }
 
     render(): ReactNode {
-        return <div onClick={this.onClickDiv(1, 2)} ><div></div><div>dsdsds</div></div>
+    return <div onClick={this.onClickDiv(1, 2)} ><div></div>{[1,2,3,4,5].map(v=><span>{v}</span>)}</div>
     }
 }
 
