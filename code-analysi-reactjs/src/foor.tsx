@@ -15,14 +15,13 @@ class Foor extends PureComponent<FoorProps, FoorState> {
             
         }
     }
-    onClickDiv() {
+    onClickDiv(a , b) {
         // do stuff
-
-        for (;;) {}
+        
       }
 
     render(): ReactNode {
-        return <div onClick={this.onClickDiv} ><div></div><div>dsdsds</div></div>
+        return <div onClick={this.onClickDiv(1, 2)} ><div></div><div>dsdsds</div></div>
     }
 }
 
