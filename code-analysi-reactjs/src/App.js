@@ -2,6 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+class Listing extends React.Component {
+  render() {
+    return <div>{this.props.hello}</div>;
+  }
+}
+
 function App() {
   return (
     <div className="App">
