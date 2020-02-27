@@ -3,19 +3,19 @@ import logo from './logo.svg';
 import './App.css';
 
 
-function getCondition(){
-  return true;
-}
+// function getCondition(){
+//   return true;
+// }
 
 function doSomeThing () {
-  let condition = true;
-  while (getCondition()) {
-    condition = true;
-  }
+  // let condition = true;
+  // while (getCondition()) {
+  //   condition = true;
+  // }
 
-  do{
-    condition = true;
-  }while(condition);
+  // do{
+  //   condition = true;
+  // }while(condition);
 }
 
 function App() {
