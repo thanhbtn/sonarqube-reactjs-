@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import pureComponent1 from './PureComponent1'
 
 
 // function getCondition(){
@@ -36,6 +37,7 @@ function App() {
         >
           Learn React
         </a>
+        <pureComponent1 phone_number="03443434"/>
       </header>
     </div>
   );

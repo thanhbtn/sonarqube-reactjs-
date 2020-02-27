@@ -1,13 +1,13 @@
 import React, { PureComponent, ReactNode } from 'react'
 
 interface PureComponent1Props {
-
+    phone_number: string
 }
 interface PureComponent1State {
 
 }
 
-class PureComponent1 extends PureComponent<PureComponent1State, PureComponent1Props> {
+class PureComponent1 extends PureComponent<PureComponent1Props, PureComponent1State> {
     constructor(props: PureComponent1Props) {
         super(props)
         
@@ -22,4 +22,4 @@ class PureComponent1 extends PureComponent<PureComponent1State, PureComponent1Pr
     }
 }
 
-export default PureComponent1Props;
+export default PureComponent1;
