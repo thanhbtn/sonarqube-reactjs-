@@ -10,10 +10,11 @@ interface FoorState {
 class Foor extends PureComponent<FoorProps, FoorState> {
     constructor(props: FoorProps) {
         super(props)
-
+        
         this.state = {
             
         }
+        super(props)
     }
     onClickDiv(a , b) {
         // do stuff
