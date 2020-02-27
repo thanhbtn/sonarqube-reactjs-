@@ -2,13 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class Listing extends React.Component {
-  render() {
-    return <div>{this.props.hello}</div>;
+
+function doSomeThing () {
+  const condition = true;
+  while (condition) {
+    condition = true;
   }
 }
 
 function App() {
+
+  doSomeThing();
   return (
     <div className="App">
       <header className="App-header">
