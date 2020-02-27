@@ -3,9 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 
+function getCondition(){
+  return true;
+}
+
 function doSomeThing () {
   let condition = true;
-  while (condition) {
+  while (getCondition()) {
     condition = true;
   }
 
